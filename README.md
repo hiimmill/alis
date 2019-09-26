@@ -9,7 +9,7 @@ the [Arch Linux wiki](https://wiki.archlinux.org), the [Installation Guide](http
 Recomendations](https://wiki.archlinux.org/index.php/General_recommendations), later
 compare those commands with the commands of this script.
 
-For new features, improvements and bugs fill an issue in GitHub or make a pull request. You can test it in a VirtualBox virtual machine. If you test it in real hardware please send me an email to pico.dev@gmail.com with the machine description and tell me if something goes wrong or all works fine. [Pull request](https://github.com/picodotdev/alis/pulls) and [new feature request](https://github.com/picodotdev/alis/issues) are welcome!
+For new features, improvements and bugs fill an issue in GitHub or make a pull request. You can test it in a VirtualBox virtual machine. If you test it in real hardware please send me an email to pico.dev@gmail.com with the machine description and tell me if something goes wrong or all works fine. [Pull request](https://github.com/qertoip/alis/pulls) and [new feature request](https://github.com/qertoip/alis/issues) are welcome!
 
 **Warning! This script deletes all partitions of the persistent storage**
 
@@ -48,7 +48,7 @@ Internet connection is required, with wireless WIFI connection see [Wireless_net
 ```
 # # Start the system with lastest Arch Linux installation media
 # loadkeys [keymap]
-# curl https://raw.githubusercontent.com/picodotdev/alis/master/download.sh | bash, or with URL shortener curl -sL https://bit.ly/2F3CATp | bash
+# curl https://raw.githubusercontent.com/qertoip/alis/master/download.sh | bash, or with URL shortener curl -sL https://bit.ly/2F3CATp | bash
 # # Edit alis.conf and change variables values with your preferences
 # vim alis.conf
 # ./alis.sh
@@ -61,7 +61,7 @@ As another form of log.
 ```
 # # Start the system with lastest Arch Linux installation media
 # loadkeys [keymap]
-# curl https://raw.githubusercontent.com/picodotdev/alis/master/download.sh | bash, or with URL shortener curl -sL https://bit.ly/2F3CATp | bash
+# curl https://raw.githubusercontent.com/qertoip/alis/master/download.sh | bash, or with URL shortener curl -sL https://bit.ly/2F3CATp | bash
 # ./alis-asciinema.sh
 # # Edit alis.conf and change variables values with your preferences
 # vim alis.conf
@@ -75,7 +75,7 @@ As another form of log.
 ```
 # # Start the system with lastest Arch Linux installation media
 # loadkeys [keymap]
-# curl https://raw.githubusercontent.com/picodotdev/alis/master/download.sh | bash, or with URL shortener curl -sL https://bit.ly/2F3CATp | bash
+# curl https://raw.githubusercontent.com/qertoip/alis/master/download.sh | bash, or with URL shortener curl -sL https://bit.ly/2F3CATp | bash
 # # Edit alis-recovery.conf and change variables values with your last installation with alis
 # vim alis-recovery.conf
 # # Optional asciinema video

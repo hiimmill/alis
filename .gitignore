@@ -1,2 +1,4 @@
 *.vala
 *.patch
+.idea
+

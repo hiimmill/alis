@@ -18,7 +18,7 @@ set -e
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
-# This script is hosted at https://github.com/picodotdev/alis. For new features,
+# This script is hosted at https://github.com/qertoip/alis. For new features,
 # improvements and bugs fill an issue in GitHub or make a pull request.
 # Pull Request are welcome!
 #
@@ -35,7 +35,7 @@ set -e
 
 # Usage:
 # # loadkeys es
-# # curl https://raw.githubusercontent.com/picodotdev/alis/master/download.sh | bash, or with URL shortener curl -sL https://bit.ly/2F3CATp | bash
+# # curl https://raw.githubusercontent.com/qertoip/alis/master/download.sh | bash, or with URL shortener curl -sL https://bit.ly/2F3CATp | bash
 # # vim alis.conf
 # # ./alis.sh
 
@@ -350,7 +350,7 @@ function partition() {
             #PARTITION_BOOT_NUMBER=1
             DEVICE_ROOT="${DEVICE}p2"
         fi
-        
+
         if [ "$DEVICE_MMC" == "true" ]; then
             PARTITION_BOOT="${DEVICE}p1"
             PARTITION_ROOT="${DEVICE}p2"
@@ -381,7 +381,7 @@ function partition() {
             #PARTITION_BOOT_NUMBER=2
             DEVICE_ROOT="${DEVICE}p3"
         fi
-        
+
         if [ "$DEVICE_MMC" == "true" ]; then
             PARTITION_BIOS="${DEVICE}p1"
             PARTITION_BOOT="${DEVICE}p2"
